@@ -21,5 +21,6 @@ try:
   
     print("Paths in", file_name , "were replaced")
 except Exception as e:
-    print("Error occured. Import script not ready to run.")
+    print("Error occurred")
     print("error: ",e)
+    print("So, import script not ready to run.")
